@@ -1,0 +1,139 @@
+/* 
+
+** Ease-in-out
+As animações começam e terminam com velocidade baixa, 
+mas aceleram no meio.
+
+*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.body {
+    background-color: #FAFAFA;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.wrapping {
+    display: flex;
+}
+
+.box-left {
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 50vw;
+    height: auto;
+}
+
+.box-left img {
+    width: 450px;
+
+}
+
+.box-right {
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50vw;
+    height: auto;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D3D3D3;
+    width: 300px;
+    padding: 30px;
+}
+.logo-insta {
+    width: 90%;
+}
+
+.box-right input {
+    width: 90%;
+    height: 36px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.box-right button {
+    background-color: #0095f6;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.link-face {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link-password {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.box-register {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.link-register {
+    color: #0095F6;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 10px;
+
+}
+
+.box-store {
+    display: flex;
+    align-items: center;
+}
+
+.img-store {
+    width: 100px;
+    height: auto;
+}
