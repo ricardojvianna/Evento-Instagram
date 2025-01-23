@@ -226,6 +226,10 @@ p {
         display: none;
     }
 
+    .footer {
+        display: none;
+    }
+
     .box-register {
         position: relative;
         top: 360px;
@@ -236,7 +240,7 @@ p {
         top: 380px;
         left: 5px;
     }
-    
+
     .box-right {
         padding: 15px 5px;
         display: flex;
